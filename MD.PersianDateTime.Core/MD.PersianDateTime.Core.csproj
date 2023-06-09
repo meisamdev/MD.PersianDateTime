@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Nullable>enable</Nullable>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+
+	<!-- Nuget Info -->
+	<PropertyGroup>
+		<Description>A C# library to use PersianCalendar as easy as DateTime</Description>
+		<Copyright>Mohammad Dayyan - @mdssoft</Copyright>
+		<PackageLicense>https://licenses.nuget.org/MIT</PackageLicense>
+		<PackageProjectUrl>https://github.com/Mds92/MD.PersianDateTime</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Mds92/MD.PersianDateTime</RepositoryUrl>
+		<PackageTags>c# .net-standard persiandatetime datetime calendar</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyVersion>2.4.1</AssemblyVersion>
+		<FileVersion>2.4.1</FileVersion>
+		<Version>2.4.1</Version>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageIcon>PersianDateTimePng.png</PackageIcon>
+		<PackageIconUrl />
+		<PackageLicenseExpression></PackageLicenseExpression>
+		<Company>Mohammad Dayyan</Company>
+		<Authors>Mohammad Dayyan</Authors>
+		<PackageReleaseNotes>Add GetPersianDateOfLastDayOfYear</PackageReleaseNotes>
+		<Title>MD.PersianDateTime.Standard</Title>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Icon/PersianDateTimePng.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+
+</Project>
