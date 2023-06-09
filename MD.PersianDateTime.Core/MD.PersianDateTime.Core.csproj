@@ -37,5 +37,11 @@
 		</None>
 	</ItemGroup>
 
+	<ItemGroup>
+		<Compile Update="PersianDateTime.cs">
+			<SubType>Code</SubType>
+		</Compile>
+	</ItemGroup>
+
 
 </Project>
